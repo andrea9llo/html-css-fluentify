@@ -13,6 +13,53 @@ header{
   background: #0d325a;
   height: 500px;
 }
+
+nav:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.logo, .navcol1{
+  float: left;
+}
+.logo{
+  margin-left: 10%;
+  margin-top: 1%;
+  padding: 1%;
+}
+.navcol1{
+  margin: 3% 12% 0 5%;
+}
+.navcol2{
+  float: right;
+  margin: 3% 8% 0 0;
+}
+li{
+  list-style-type: none;
+  float: left;
+  padding: 5px;
+}
+a{
+  text-decoration:none;
+  color: white;
+  font-size: 12px;
+}
+.navbar:hover{
+  color: #7fb802;
+}
+#tutor{
+  opacity: 0.5;
+}
+#login{
+  padding: 8px 20px;
+  border: solid 1px white;
+  border-radius: 9%;
+}
+#strutt{
+  padding: 9px 8px;
+  background: #7fb802;
+  border-radius: 3%;
+}
 /* blocco contenuto principale */
 .row{
   /* margin-left: 10%; */
