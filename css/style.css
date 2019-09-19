@@ -106,14 +106,15 @@ h1{
   text-align: center;
 }
 #textblack{
-  font-size: 25px;
-  margin-top: ;
+  font-size: 28px;
+  font-weight: 400;
+  padding: 45px 0 0 0;
+  color: #373a3c;
 }
 #textsotto{
 color: #999;
 font-size: 20px;
-margin-top: 1%;
-margin-bottom: 5%;
+padding: 5px 0 20px 0;
 }
 /* tre colonne */
 .primacol{
