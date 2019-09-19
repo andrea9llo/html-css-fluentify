@@ -12,6 +12,7 @@ main{
 header{
   background: #0d325a;
   height: 500px;
+  position: relative;
 }
 /* blocco navbar */
 nav:after{
@@ -45,6 +46,7 @@ a{
   text-decoration:none;
   color: white;
   font-size: 12px;
+  font-family: sans-serif;
 }
 .navbar:hover{
   color: #7fb802;
@@ -57,12 +59,43 @@ a{
   border: solid 1px white;
   border-radius: 9%;
 }
-#strutt{
+.strutt{
   padding: 9px 8px;
   background: #7fb802;
-  border-radius: 3%;
+  border-radius: 5%;
 }
 /* parte bassa header */
+.rowslogan{
+  width: 90%;
+  margin-left: 10%;
+  margin-top: 8%;
+}
+.rowslogan{
+  content: "";
+  display: table;
+  clear: both;
+}
+.slogan1{
+  width: 50%;
+  float: left;
+}
+.slogan2{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+.man{
+  height: 310px;
+}
+h1{
+  font-family:  Georgia, "Times New Roman", serif;
+  font-size: 40px;
+  color: white;
+}
+.piano{
+  padding: 10px 20px;
+
+}
 /* blocco contenuto principale */
 .row{
   /* margin-left: 10%; */
