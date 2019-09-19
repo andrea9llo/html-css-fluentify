@@ -13,6 +13,10 @@ header{
   background: #0d325a;
   height: 500px;
   position: relative;
+  background-image: url("../img/oldman.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 100% 100%;
 }
 /* blocco navbar */
 nav:after{
@@ -75,18 +79,14 @@ a{
   display: table;
   clear: both;
 }
-.slogan1{
+.slogan{
   width: 50%;
   float: left;
 }
-.slogan2{
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-}
-.man{
+
+/* .man{
   height: 310px;
-}
+} */
 h1{
   font-family:  Georgia, "Times New Roman", serif;
   font-size: 40px;
@@ -99,12 +99,21 @@ h1{
 
 }
 /* blocco contenuto principale */
-.row{
-  /* margin-left: 10%; */
-}
-.language{
+
+.rowlanguage{
   background: #F9F9F9;
   height: 150px;
+  text-align: center;
+}
+#textblack{
+  font-size: 25px;
+  margin-top: ;
+}
+#textsotto{
+color: #999;
+font-size: 20px;
+margin-top: 1%;
+margin-bottom: 5%;
 }
 /* tre colonne */
 .primacol{
