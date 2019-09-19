@@ -84,9 +84,6 @@ a{
   float: left;
 }
 
-/* .man{
-  height: 310px;
-} */
 h1{
   font-family:  Georgia, "Times New Roman", serif;
   font-size: 40px;
@@ -117,34 +114,62 @@ font-size: 20px;
 padding: 5px 0 20px 0;
 }
 /* tre colonne */
-.primacol{
-  height: 400px;
-  border: solid 1px black;
-  width: 30%;
-  float: left;
-  margin-left: 10%;
-
-}
-.secondacol{
-  height: 400px;
-  border: solid 1px black;
-  width: 30%;
-  float: left;
-}
-.terzacolo{
-  height: 400px;
-  border: solid 1px black;
-  width: 30%;
-  float: left;
-}
 .colonne{
-  background: red;
+  position: relative;
 }
 .colonne:after{
   content: "";
   display: table;
   clear: both;
 }
+.primacol, .secondacol, .terzacolo{
+  float: left;
+  width: 26.6%;
+}
+.primacol{
+  margin-left: 5%;
+  background-image: url("../img/profile.svg");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: 50% 8%;
+}
+.paragrafi{
+  text-align: center;
+  margin-top: 220px;
+  margin-bottom: 70px;
+}
+h6{
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Museo Sans';
+  color: #7fb802;
+}
+.info{
+  color: #b2b2b2;
+  font-size: 18px;
+}
+.colon{
+  border: 0;
+  border-top: 4px solid rgba(0,0,0,.1);
+  margin: 16px 180px;
+}
+.secondacol{
+  background-image: url("../img/computer.svg");
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: 50% 8%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.terzacolo{
+  margin-right: 5%;
+  background-image: url("../img/doc.svg");
+  background-repeat: no-repeat;
+  background-size: 38%;
+  background-position: 50% 8%;
+}
+
+
 
 hr{
   border: 0;
