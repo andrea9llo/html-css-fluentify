@@ -94,6 +94,8 @@ h1{
 }
 .piano{
   padding: 10px 20px;
+  float: left;
+  margin: 40px 0;
 
 }
 /* blocco contenuto principale */
